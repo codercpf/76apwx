@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/admin/adminVideo.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/css/bootstrap.min.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/css/docs.min.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/php/JSON.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/php/addVideo.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/php/common/admin.inc" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/php/common/alert_href.inc" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/php/common/alert_only.inc" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/php/common/footer.inc" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/php/common/h5_partion.inc" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/php/common/href_only.inc" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/php/common/none.inc" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/php/deleteVideo.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/php/editVideo.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/php/include/db_config.inc" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/php/include/db_create.inc" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/php/include/db_table_create.inc" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/php/insertVideo.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/php/updateVideo.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/php/viewVideo.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/video.php" charset="UTF-8" />
+  </component>
+</project>

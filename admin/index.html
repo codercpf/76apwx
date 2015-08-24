@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>登录界面</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <style type="text/css">
+        .ui-input-box{
+            width: 360px;
+            background: #FFF;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            margin-left: -200px;
+            margin-right: -200px;
+            border-radius: 10px 10px 10px 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            text-align: center;
+            margin-top: -200px;
+        }
+        .ui-bottom{
+            font-size: 14px;
+            padding-bottom: 10px;
+        }
+        .box{
+            padding: 20px 30px;
+        }
+    </style>
+
+</head>
+<body style="background-color: #DCEAF4">
+<form action="login.php" method="post">
+    <div class="ui-input-box">
+        <div class="box">
+            <div class="alert alert-info" style="font-size: 18px">
+                管理员登录
+            </div>
+            <div class="input-group">
+                <span class="input-group-addon">
+                    <span class="glyphicon glyphicon-user"></span>
+                </span>
+                <input type="text" class="form-control" placeholder="用户名"
+                       maxlength="50" name="userName" autofocus required>
+            </div>
+            <br>
+            <div class="input-group">
+                <span class="input-group-addon">
+                    <span class="glyphicon glyphicon-off"></span>
+                </span>
+                <input type="password" class="form-control" placeholder="密码"
+                       maxlength="50" name="passWord" required>
+            </div>
+            <br>
+            <div>
+                <button class="btn btn-primary" type="submit">登&nbsp;&nbsp;&nbsp;&nbsp;录</button>
+                <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                <button class="btn btn-primary" type="reset">重&nbsp;&nbsp;&nbsp;&nbsp;置</button>
+            </div>
+        </div>
+        <div class="ui-bottom">
+            2015 Copyright @ 76ap Studio
+        </div>
+    </div>
+</form>
+</body>
+</html>
+
+<!-- 以下代码用于禁止backspace键的网页后退功能 -->
+<script type="text/javascript">
+    //处理键盘事件
+    function doKey(e){
+        var ev  = e || window.event;							//获取event对象
+        var obj = ev.target || ev.srcElement;					//获取事件源
+        var t 	= obj.type || obj.getAttribute('type');			//获取事件源类型
+        if(ev.keyCode == 8 && t != "password" && t != "text" && t != "textarea")
+        {
+            return false;
+        }
+    }
+    //禁止后退键 作用于Firefox、Opera
+    document.onkeypress=doKey;
+    //禁止后退键  作用于IE、Chrome
+    document.onkeydown=doKey;
+</script>
